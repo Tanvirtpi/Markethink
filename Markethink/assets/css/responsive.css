@@ -1,0 +1,347 @@
+@media all and (max-width:1200px){
+    .process-bar::after {
+        content: "";
+        position: absolute;
+        width: 74%;
+        left: 120px;
+    }
+}
+@media all and (min-width:992px){
+    .menu {
+        display: block !important;
+    }
+}
+@media all and (max-width: 991px){
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-icon {
+        color: var(--color2);
+        font-size: 30px;
+        padding: 7px 15px;
+        border-radius: 8px;
+        display: block;
+        margin-left: 15px;
+        line-height: 35px;
+    }
+    .mobile-bar {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        width: 100%;
+        display: none;
+    }
+    .menu-area {
+        position: absolute;
+        background: var(--color2);
+        border-radius: 10px;
+        margin: auto;
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu-btn {
+        display: none;
+    }
+    .sum-img {
+        display: none;
+    }
+    .social-content p {
+        font-size: 20px;
+    }
+    .header-text-area h1 {
+        font-size: 50px;
+    }
+    .left-line h3 {
+        font-size: 30px;
+    }
+    .header-text-area {
+        padding: 80px 0;
+    }
+    .header-text-area a {
+        margin-bottom: 0;
+    }
+    .btn2 {
+        padding: 18px 40px;
+    }
+    .services-left {
+        text-align: center;
+    }
+    .services-left h2 {
+        font-size: 30px;
+    }
+    .services-left p {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .btn3 {
+        font-size: 16px;
+    }
+    .services-item {
+        text-align: center;
+    }
+    .services-item p {
+        margin: auto;
+    }
+    .boxs h3 {
+        font-size: 17px;
+        width: 155px;
+        margin-top: 30px;
+    }
+    .process-bar::after {
+        content: "";
+        position: absolute;
+        width: 74%;
+        left: 120px;
+    }
+    #myTab {
+        justify-content: start;
+
+    }
+    #home-tab, #profile-tab {
+        padding: 10px 0;
+        margin: 0px 0px;
+        margin-right: 20px;
+    }
+    .blog1 {
+        margin-bottom: 30px;
+    }
+    .blog1 h3 {
+        font-size: 25px;
+        width: 100%;
+    }
+    .blog-text {
+        width: 100%;
+    }
+    .row.foter-rows {
+        flex-direction: column-reverse;
+    }
+    .footer-left-area {
+        text-align: center;
+    }
+    .footer-left-area p {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .footer-left-area ul {
+        justify-content: center;
+    }
+    .social-content h2 {
+        font-size: 25px;
+        max-width: 460px;
+        line-height: 37px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+}
+
+@media all and (max-width:767px){
+    .partners {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .services-left h2 {
+        font-size: 22px;
+    }
+    .services-left p {
+        font-size: 16px;
+    }
+    .services-item {
+        text-align: center;
+    }
+    .services-item p {
+        margin: auto;
+    }
+    .service-right {
+        margin-top: 40px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .process-bar {
+        flex-direction: column;
+    }
+    .process-bar::after {
+        content: none;
+        position: absolute;
+    }
+    .boxs {
+        margin-bottom: 30px;
+    }
+    .box1 {
+        margin-bottom: 20px;
+    }
+    .process-header h2 {
+        font-size: 30px;
+    }
+    .process-header p {
+        font-size: 18px;
+    }
+    .btn2 {
+        padding: 15px 25px;
+    }
+    .blog1 {
+        text-align: center;
+    }
+    .blog1 h3 {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .blog-text {
+        margin: auto;
+    }
+    .blog-icon a {
+        margin: auto;
+    }
+    .social-rows {
+        flex-direction: column-reverse;
+    }
+    .contact-headding {
+        text-align: center;
+    }
+    .contact-headding p {
+        font-size: 25px;
+        line-height: 40px;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    input[type="email"] {
+        margin-bottom: 25px;
+    }
+    .all-input a {
+        margin-left: 0;
+    }
+    .row.footer-rows {
+        justify-content: center;
+    }
+    .services-list {
+        margin-bottom: 25px;
+    }
+    .company-list {
+        margin-left: 0;
+        text-align: center;
+    }
+    .social-content h2 {
+        font-size: 25px;
+        max-width: 350px;
+        line-height: 37px;
+    }
+}
+@media all and (max-width:575px){
+
+    .header-text-area p {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .btn2 {
+        padding: 15px 25px;
+    }
+    .services-left h2 {
+        letter-spacing: 0px;
+        line-height: normal;
+    }
+    .contact-area .content-banner {
+        padding: 50px 90px;
+    }
+    input[type="email"] {
+        padding: 10px 20px;
+        width: 80%;
+    }
+    .all-input a {
+        padding: 10px 25px;
+    }
+    .company-list {
+        margin-left: 0;
+        text-align: center;
+    }
+    .row.footer-rows {
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+    .menu-list {
+        margin-bottom: 30px;
+    } 
+}
+@media all and (max-width: 450px){
+    .logo {
+        flex-direction: column;
+    }
+    .mobile-bar {
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .btn1 {
+        padding: 12px 25px;
+    }
+    .header-text-area h1 {
+        font-size: 35px;
+    }
+     h3 {
+        font-size: 25px;
+    }
+    .process-header h2 {
+        font-size: 25px;
+    }
+    .blog-headding h2 {
+        font-size: 35px;
+        line-height: 60px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .btn2 {
+        padding: 10px 20px;
+    }
+    .contact-area .content-banner {
+        padding: 50px 35px;
+    }
+    #home-tab, #profile-tab {
+        padding: 10px 0;
+        margin-right: 11px;
+    }
+    #home-tab, #profile-tab {
+        font-size: 18px;
+    }
+    #myTab {
+        justify-content: center; 
+    }
+    .footer-text p {
+        padding: 21px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .social-content a {
+        padding: 15px 17px;
+        font-size: 14px;
+    }
+}
+@media all and (max-width:375px){
+    .blog-headding h2 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    #home-tab, #profile-tab {
+        padding: 10px 0;
+        margin-right: 12px;
+    }
+    #home-tab, #profile-tab {
+        font-size: 16px;
+    }
+    .social-content h2 {
+        font-size: 22px;
+    }
+    .social-content p {
+        font-size: 16px;
+    }
+}
